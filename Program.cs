@@ -40,8 +40,7 @@ namespace Quest
 
             Challenge pi = new Challenge("What are the first 5 digits of pi? (exclude decimal)", 31415, 50);
 
-            // "Awesomeness" is like our Adventurer's current "score"
-            // A higher Awesomeness is better
+            Challenge height = new Challenge("How tall am I (in inches)?", 66, 30);
 
             // Here we set some reasonable min and max values.
             //  If an Adventurer has an Awesomeness greater than the max, they are truly awesome
