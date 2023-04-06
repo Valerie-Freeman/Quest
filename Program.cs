@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 // Every class in the program is defined within the "Quest" namespace
@@ -43,7 +43,7 @@ namespace Quest
             Challenge height = new Challenge("How tall am I (in inches)?", 66, 30);
             
             Challenge mathChallenge = new Challenge("Solve for x: 2x - 4 = 12", 8, 15);
-
+            Console.WriteLine("Doing some stuff on this line of code.");
             // Here we set some reasonable min and max values.
             //  If an Adventurer has an Awesomeness greater than the max, they are truly awesome
             //  If an Adventurer has an Awesomeness less than the min, they are terrible
