@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 // Every class in the program is defined within the "Quest" namespace
@@ -38,9 +38,11 @@ namespace Quest
 
             Challenge whatAge = new Challenge("How old am I?", 27, 25);
 
-            Challenge pi = new Challenge("What are the first 5 digits of pi? (exclude decimal)", 31415, 50);
+            Challenge pi = new Challenge("What are the first 6 digits of pi? (exclude decimal)", 314159, 50);
 
             Challenge height = new Challenge("How tall am I (in inches)?", 66, 30);
+            
+            Challenge mathChallenge = new Challenge("Solve for x: 2x - 4 = 12", 8, 15);
 
             // Here we set some reasonable min and max values.
             //  If an Adventurer has an Awesomeness greater than the max, they are truly awesome
